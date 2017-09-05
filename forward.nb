@@ -10,20 +10,40 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8957,        274]
-NotebookOptionsPosition[      8483,        254]
-NotebookOutlinePosition[      8860,        271]
-CellTagsIndexPosition[      8817,        268]
+NotebookDataLength[      9844,        294]
+NotebookOptionsPosition[      9367,        274]
+NotebookOutlinePosition[      9744,        291]
+CellTagsIndexPosition[      9701,        288]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["hardCORE - forward model ", "Subsection",
+Cell[TextData[{
+ "forward model ",
+ StyleBox["\nParameters: minimum core radius fraction ", "Text"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SubscriptBox["CRF", "min"]}], TraditionalForm]], "Text",
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "0e2622f3-65a7-4755-9c9e-8771e111aa76"], "Text"],
+ StyleBox["), mass of planet (in Earth units). We only recommend this model \
+for masses > 0.1 ", "Text"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   SubscriptBox["M", 
+    StyleBox["\[Earth]", "Text"]], TraditionalForm]], "Text",
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "a37ce820-694f-415f-950a-e66f8d6c24a3"], "Text"],
+ StyleBox[" .\nReturns the radius of the exoplanet in Earth units.", "Text"]
+}], "Subsection",
  CellChangeTimes->{{3.7105232896342163`*^9, 3.710523293400757*^9}, {
-  3.713573615845005*^9, 
-  3.713573623996673*^9}},ExpressionUUID->"c3268c2c-54de-4a8f-9e73-\
+  3.713573615845005*^9, 3.713573623996673*^9}, {3.7135785418906612`*^9, 
+  3.7135785700168962`*^9}, {3.7135786779506283`*^9, 3.713578781944796*^9}, {
+  3.71357888914993*^9, 3.713579033781942*^9}, {3.713579067078949*^9, 
+  3.713579070298338*^9}},ExpressionUUID->"c3268c2c-54de-4a8f-9e73-\
 56f8c56cfe30"],
 
 Cell[BoxData[{
@@ -271,9 +291,9 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 224, 4, 33, "Subsection", "ExpressionUUID" -> \
+Cell[580, 22, 1108, 24, 67, "Subsection", "ExpressionUUID" -> \
 "c3268c2c-54de-4a8f-9e73-56f8c56cfe30"],
-Cell[807, 28, 7660, 223, 256, "Input", "ExpressionUUID" -> \
+Cell[1691, 48, 7660, 223, 256, "Input", "ExpressionUUID" -> \
 "b6e8d444-a3bf-475f-ace4-39f94323e07e"]
 }, Open  ]]
 }

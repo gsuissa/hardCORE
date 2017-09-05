@@ -10,14 +10,39 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     13352,        382]
-NotebookOptionsPosition[     12630,        359]
-NotebookOutlinePosition[     12984,        375]
-CellTagsIndexPosition[     12941,        372]
+NotebookDataLength[     14457,        412]
+NotebookOptionsPosition[     13597,        385]
+NotebookOutlinePosition[     13952,        401]
+CellTagsIndexPosition[     13909,        398]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ "inverter\n",
+ StyleBox["Inverts the forward model using Mathematica\[CloseCurlyQuote]s \
+NMinimize.\nInput file of mass-radius joint posterior distribution (first \
+column mass measurements in Earth units, second column radius measurements in \
+Earth units).\nReturns the standard deviation and mean for the minimum core \
+radius fraction ", "Text"],
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{"(", 
+      SubscriptBox["CRF", "min"], ")"}], " "}], "Text"], TraditionalForm]],
+  FormatType->"TraditionalForm",ExpressionUUID->
+  "8be09350-8596-4df6-8c8b-1af179606e14"],
+ StyleBox["of the planet. ", "Text"]
+}], "Section",
+ CellChangeTimes->{{3.7135783134755707`*^9, 3.713578512616687*^9}, {
+  3.713579148053527*^9, 3.713579180138091*^9}, {3.71357926696348*^9, 
+  3.713579278237363*^9}, {3.713579363425045*^9, 
+  3.713579387643642*^9}},ExpressionUUID->"4839dbc0-1600-4901-b28e-\
+8a0fc68d5542"],
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{"filename", "=", "\"\<filenamehere.dat\>\""}], 
@@ -356,9 +381,10 @@ Cell[BoxData[{
   3.712683922733284*^9}, {3.71268420719655*^9, 
   3.712684215146667*^9}},ExpressionUUID->"97c4ac1d-c98d-4ab9-a463-\
 6d12fd2ab294"]
+}, Open  ]]
 },
 WindowSize->{933, 595},
-WindowMargins->{{42, Automatic}, {Automatic, 9}},
+WindowMargins->{{108, Automatic}, {Automatic, 0}},
 FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
 2017)",
 StyleDefinitions->"Default.nb"
@@ -374,16 +400,20 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 1267, 31, 96, "Input", "ExpressionUUID" -> \
+Cell[CellGroupData[{
+Cell[580, 22, 930, 21, 149, "Section", "ExpressionUUID" -> \
+"4839dbc0-1600-4901-b28e-8a0fc68d5542"],
+Cell[1513, 45, 1267, 31, 96, "Input", "ExpressionUUID" -> \
 "663de434-eff1-4033-99d3-aace437b716a"],
-Cell[1828, 53, 7660, 223, 537, "Input", "ExpressionUUID" -> \
+Cell[2783, 78, 7660, 223, 537, "Input", "ExpressionUUID" -> \
 "3ee82e86-e72a-4a86-8bb6-6ad7b5252733"],
-Cell[9491, 278, 1341, 34, 79, "Input", "ExpressionUUID" -> \
+Cell[10446, 303, 1341, 34, 79, "Input", "ExpressionUUID" -> \
 "fcc49f84-03dd-4b7d-8105-9a3634f51a1e"],
-Cell[10835, 314, 1216, 32, 75, "Input", "ExpressionUUID" -> \
+Cell[11790, 339, 1216, 32, 75, "Input", "ExpressionUUID" -> \
 "806ce19f-f80d-4b79-8e1b-1ed35d6a7ff6"],
-Cell[12054, 348, 572, 9, 54, "Input", "ExpressionUUID" -> \
+Cell[13009, 373, 572, 9, 54, "Input", "ExpressionUUID" -> \
 "97c4ac1d-c98d-4ab9-a463-6d12fd2ab294"]
+}, Open  ]]
 }
 ]
 *)
