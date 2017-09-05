@@ -4,3 +4,4 @@
 If you use it, please cite it. 
 
 ## forward.nb 
+`forward.nb` uses the original forward model. It calculates the planet's radius `R` (in Earth units) from its 
